@@ -53,9 +53,10 @@ fun main() {
 
     val testInput1 = readInput("Day11_example1")
     check (part1(testInput1) == 374.toLong())
-    check(expandGalaxies(testInput1, 10.toLong()) == 1030.toLong())
-    check(expandGalaxies(testInput1, 100.toLong()) == 8410.toLong())
 
+    val testInput2 = readInput("Day11_example2")
+    check(expandGalaxies(testInput2, 10.toLong()) == 1030.toLong())
+    check(expandGalaxies(testInput2, 100.toLong()) == 8410.toLong())
 
     val input = readInput("Day11")
     part1(input).println()
